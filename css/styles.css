@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: 'The seasons', sans-serif;
 }
 
 body {
-  background: #f9f9f9;
+  background: #f0eeeb;
   color: #333;
   line-height: 1.6;
 }
@@ -201,6 +201,53 @@ figcaption {
   margin-top: 0.5rem;
 }
 
+/* dining section */
+.dining-section {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.dining-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.dining-content {
+  flex: 1;
+}
+
+.dining-image img {
+  width: 150px;
+  height: auto;
+}
+
+/* spa section */
+.spa-section {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.spa-section.spa-flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.spa-content {
+  flex: 1;
+}
+
+.spa-image img {
+  width: 150px;
+  height: auto;
+}
+
 /* features section */
 .feature {
   display: flex;
@@ -332,6 +379,30 @@ footer p {
   }
 
   .feature-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .dining-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dining-section.reverse {
+    flex-direction: column;
+  }
+
+  .dining-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .spa-section.spa-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .spa-image img {
     width: 100%;
     max-width: 300px;
   }
