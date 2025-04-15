@@ -185,6 +185,22 @@ figcaption {
   display: block;
 }
 
+/* activity image */
+.activity-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+}
+
+.activity-image figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
 /* features section */
 .feature {
   display: flex;
@@ -343,6 +359,10 @@ footer p {
   }
 
   .hero-image img {
+    max-width: 100%;
+  }
+
+  .activity-image img {
     max-width: 100%;
   }
 }
