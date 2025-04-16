@@ -22,6 +22,7 @@ pexels-valeriya-31235409.jpg
 resort-2495217_1920.jpg
 resort-drone.jpg 
 single.jpg
+sunset.jpg
 white-sand-beach.jpg
 # Video Used:
 1675442-hd_1920_1080_30fps.mp4
