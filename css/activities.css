@@ -1,0 +1,35 @@
+/* article styles */
+article {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-left: 4px solid #006d77;
+}
+
+/* activity image */
+.activity-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+}
+
+.activity-image figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* responsive design */
+@media (max-width: 768px) {
+  .activity-image img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .activity-image img {
+    max-width: 100%;
+  }
+}

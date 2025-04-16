@@ -1,0 +1,17 @@
+/* testimonials */
+blockquote {
+  background: #f0f8ff;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+blockquote p {
+  margin-bottom: 0.5rem;
+}
+
+blockquote cite {
+  display: block;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
